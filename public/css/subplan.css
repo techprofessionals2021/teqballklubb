@@ -1,0 +1,454 @@
+/* Css Start 14-july-2022 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a:hover {
+    color: #54595f;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.mian_title {
+    font-family: "Poppins", Sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -.7px;
+}
+
+.sub_title {
+    color: #60cf83;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: transparent;
+    background-image: linear-gradient(170deg, #60cf83 0%, #3f7c47 100%);
+    font-family: "Poppins", Sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -.7px;
+}
+
+.heading_wrapper {
+    text-align: center;
+}
+
+.main_wrapper {
+    padding-top: 50px;
+}
+
+.plan_desc {
+    color: #0d0f19;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: -.7px;
+}
+
+.plan_desc_wrapper {
+    padding: 1% 20% 2% 20%;
+}
+
+.feat_btn {
+    font-family: "Raleway", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: -.7px;
+    color: #54595f !important;
+    transition: .5s ease-in-out;
+    display: inline-block;
+}
+
+.feat_btn:hover {
+    transform: scale(1.1);
+}
+
+.price_pkg_inner_wrapper {
+    /*max-width: 1067px;*/
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    /*margin: 0 auto;*/
+}
+
+.feat_btn_wrapper {
+    padding-bottom: 60px;
+}
+
+.price_item {
+    background-color: #f8f9fa;
+    box-shadow: 5px 10px 47px 0px rgb(83 83 83 / 50%);
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 20px 20px;
+    /*width: 50%;*/
+    border-radius: 30px;
+}
+
+.price_title {
+    color: #0d0f19;
+    font-family: "Poppins", Sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -.7px;
+    padding: 0% 0% 1% 0%;
+}
+
+.check_icon {
+    width: 100%;
+    display: block;
+}
+
+.icons_wrapper {
+    width: 65px;
+    display: inline-block;
+    transform: translateX(-12px);
+}
+
+.price_sub_title {
+    color: #0d0f19;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: -.7px;
+    padding: 0% 0% 2% 0%;
+}
+
+.tab_title img {
+    width: 20px;
+    margin-left: 6px;
+}
+
+.tab_title {
+    color: #7a7a7a;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: -.7px;
+    display: flex;
+    align-items: center;
+    padding: 0% 0% 2% 0%;
+}
+
+.price_tabs_top {
+    border: 0;
+    width: fit-content;
+    background: #fff;
+}
+
+.price_tabs_top {
+    border: 0;
+    width: fit-content;
+    background-color: #fff;
+    padding: 3px 3px 3px 3px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 7px 10px 0px rgb(163 160 160 / 50%);
+}
+
+.price_tabs_top .nav-link {
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -.3px;
+    padding: 5px 40px 5px 40px;
+    border-radius: 30px 30px 30px 30px !important;
+    border: 0;
+    color: #b6b6b6 !important;
+    transition-duration: 400ms;
+}
+
+.price_tabs_top .nav-link.active {
+    background: #0d0f19 !important;
+    color: #fff !important;
+}
+
+.pkg_price {
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -.4px;
+    padding: 30px 0 16px 0;
+    color: #7a7a7a;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.pkg_inner_price_wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 25px;
+    flex-direction: column;
+}
+.pkg_inner_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.pkg_inner_price {
+    color: #0d0f19;
+    font-family: "Poppins", Sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -.4px;
+    padding-right: 10px;
+}
+
+.pkg_month {
+    color: #0d0f19;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: -.7px;
+}
+
+.pkg_payment {
+    color: #7a7a7a;
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -.4px;
+    padding: 1% 0% 5% 0%;
+}
+
+.pkg_sub_btn {
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: -.4px;
+    background-color: transparent;
+    background-image: linear-gradient(130deg, #60cf83 0%, #4aa468 100%);
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px 30px 15px 30px;
+    display: block;
+    box-shadow: 0px 10px 10px 0px rgb(166 165 165 / 50%);
+    text-align: center;
+    color: #fff !important;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    border-color: transparent;
+    width: 98%;
+}
+
+.pkg_sub_btn svg {
+    fill: #fff;
+    position: absolute;
+    right: 8px;
+}
+
+.pkg_sub_btn:hover {
+    transform: scale(1.1);
+}
+
+.commitment_main_wrapper {
+    padding-top: 40px;
+    max-width: 1067px;
+    margin: 0 auto;
+}
+
+.commitment_top_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.shield_icons {
+    width: 40px;
+}
+
+.commt_main_title {
+    color: #0d0f19;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: -.7px;
+}
+
+.commt_sub_title {
+    color: #7a7a7a;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: -.7px;
+    text-align: center;
+}
+
+.store_icon {
+    width: 200px;
+    display: inline-block;
+}
+
+.store_link {
+    display: inline-block;
+    padding: 20px 0px;
+}
+
+.commt_desc {
+    color: #7a7a7aad;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: -.7px;
+    text-align: center;
+    padding: 0% 16% 2% 16%;
+}
+
+.pkg_cut_price:before {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background: #4fae6e;
+    position: absolute;
+    border-radius: 10px;
+    left: -8px;
+    transform: translateY(2px);
+}
+
+
+/* Media Query Start */
+
+@media(max-width:960px) {
+    .commt_desc {
+        padding: 0% 10% 2% 10%;
+    }
+}
+
+@media(max-width:768px) {
+    .price_item {
+        width: 70%;
+    }
+}
+
+@media(max-width:667px) {
+    .mian_title,
+    .sub_title {
+        font-size: 42px;
+    }
+    .plan_desc {
+        font-size: 16px;
+    }
+    .commitment_main_wrapper {
+        padding: 40px 15px 0 15px;
+    }
+    .commt_desc {
+        padding: 0% 0% 2% 0%;
+    }
+}
+
+@media(max-width:568px) {
+    .price_item {
+        width: 80%;
+    }
+    .plan_desc_wrapper {
+        padding: 1% 10% 2% 10%;
+    }
+}
+
+@media(max-width:480px) {
+    .mian_title,
+    .sub_title {
+        font-size: 32px;
+    }
+    .price_item {
+        width: 90%;
+    }
+}
+
+@media(max-width:425px) {
+    .price_sub_title {
+        font-size: 14px;
+    }
+    .price_tabs_top .nav-link {
+        padding: 10px 24px 10px 24px;
+        font-size: 14px;
+    }
+    .pkg_inner_price {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:414px) {
+    .heading_wrapper {
+        padding: 0 15px;
+    }
+    .plan_desc_wrapper {
+        padding: 1% 0% 2% 0%;
+    }
+}
+
+@media(max-width:375px) {
+    .mian_title,
+    .sub_title {
+        font-size: 24px;
+    }
+    .plan_desc,
+    .feat_btn,
+    .pkg_sub_btn {
+        font-size: 14px;
+    }
+    .feat_btn_wrapper {
+        padding-bottom: 30px;
+    }
+}
+
+
+/* Media Query End */
+
+
+/* Css End 14-july-2022 */
